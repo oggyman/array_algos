@@ -3,3 +3,12 @@
 // When you have solved this, create new values for your array and ensure it still works as expected.
 
 // YOUR CODE HERE
+
+var sum = 0,
+    arr = [6,3,5,1,2,4];
+
+for (var num = 0; num < arr.length; num++) {
+    console.log("Num: ", arr[num]);
+    sum = sum + arr[num];
+    console.log("Sum: ", sum);
+}
